@@ -1,0 +1,15 @@
+.testComponent{
+    border: 2px solid black;
+    margin: 2rem;
+    padding: 1rem;
+}
+h2{
+    margin-top: 0;
+}
+.testClickBox{
+    padding: 1rem;
+    border: 1px solid black;
+    margin: 5px;
+    width: auto;
+    cursor: pointer;
+}

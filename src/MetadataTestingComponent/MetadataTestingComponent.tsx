@@ -4,7 +4,7 @@ import "./MetadataTestingComponent.css"
 
 const onClick = ()=>{
     (window as any).dataLayer = (window as any).dataLayer || [];
-    (window as any).dataLayer.push({'event': 'clickOnAd'});
+    (window as any).dataLayer.push({'event': 'clickOnAd', "customValue": JSON.stringify({a: 123, b: {c: 222, d: "ASD"}})});
 }
 
 const MetadataTestingComponent = () => {
